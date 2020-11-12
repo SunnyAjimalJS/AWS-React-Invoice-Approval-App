@@ -4,15 +4,11 @@ import Header from "../Components/Header";
 
 class App extends Component {
   render() {
-    const styling = {
-      textAlign: "center",
-    };
-
     return (
-      <div styles={styling}>
+      <>
         <Header />
         <InvoiceTable />
-      </div>
+      </>
     );
   }
 }
